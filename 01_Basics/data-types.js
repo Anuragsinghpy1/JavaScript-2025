@@ -17,7 +17,7 @@ let attendence = true; // boolean
 let attendenceReport = null; // Null is a object
 let attendenceData; // Undefined
 
-console.log(typeof age);
+// console.log(typeof age);
 console.table([typeof nametype, typeof age, typeof attendence, typeof attendenceReport, typeof attendenceData])
 
 let firstname = "Anuragpy1"
