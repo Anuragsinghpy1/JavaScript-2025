@@ -8,4 +8,12 @@ console.log(myscoreInumber);
 
 // "33" => 33  
 
+let mynewscore = 99999
+console.log(typeof mynewscore);
+
+let mynewsscoreString = String(mynewscore);
+console.log(typeof mynewsscoreString);
+
+console.log(mynewsscoreString)
+
 
