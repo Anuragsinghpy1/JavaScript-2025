@@ -35,15 +35,38 @@
 
 // Again revice String, Number, Boolean, Null and Undefined //
 
-let revicenNum = 999;
-console.log(typeof revicenNum);
+// let revicenNum = 999;
+// console.log(typeof revicenNum);
 
-let reviceNumString = String(revicenNum);
-console.log(typeof reviceNumString)
-console.log(reviceNumString);
+// let reviceNumString = String(revicenNum);
+// console.log(typeof reviceNumString)
+// console.log(reviceNumString);
 
 
 //////////////////////////////////
+
+// String convert into number but there result is NaN //
+
+let reviceString = "Anurag";
+console.log(typeof reviceString);
+
+let reviceStringNum = Number(reviceString);
+console.log(typeof reviceStringNum);
+console.log(reviceStringNum);
+
+
+// String convert into number but there result is NaN //
+
+let reviceNull = null;
+console.log(typeof reviceNull);
+
+let reviceNullnum = Number(reviceNull)
+console.log(typeof reviceNullnum);
+console.log(reviceNullnum);
+
+
+
+
 
 
 
