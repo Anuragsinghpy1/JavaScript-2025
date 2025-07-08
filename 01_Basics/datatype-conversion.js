@@ -1,4 +1,7 @@
-let myscore = "33frk"
+// Number //
+
+// let myscore = "33frk"
+
 
 // console.log(typeof (myscore));
 
@@ -8,7 +11,9 @@ let myscore = "33frk"
 
 // "33" => 33  
 
-let mynewscore = 99999
+// String //
+
+// let mynewscore = 99999
 // console.log(typeof mynewscore);
 
 // let mynewsscoreString = String(mynewscore);
@@ -16,12 +21,31 @@ let mynewscore = 99999
 
 // console.log(mynewsscoreString)
 
-let mynewscoreupdate = 1
-console.log(typeof mynewscoreupdate);
 
-let mynewscoreChange = Boolean(mynewscoreupdate);
-console.log(typeof mynewscoreChange);
-console.log(mynewscoreChange);
+// Boolean //
+
+
+// let mynewscoreupdate = 1
+// console.log(typeof mynewscoreupdate);
+
+// let mynewscoreChange = Boolean(mynewscoreupdate);
+// console.log(typeof mynewscoreChange);
+// console.log(mynewscoreChange);
+
+
+// Again revice String, Number, Boolean, Null and Undefined //
+
+let revicenNum = 999;
+console.log(typeof revicenNum);
+
+let reviceNumString = String(revicenNum);
+console.log(typeof reviceNumString)
+console.log(reviceNumString);
+
+
+//////////////////////////////////
+
+
 
 
 
