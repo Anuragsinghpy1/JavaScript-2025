@@ -55,7 +55,7 @@ console.log(typeof reviceStringNum);
 console.log(reviceStringNum);
 
 
-// String convert into number but there result is NaN //
+// Null type is (object) if we convert Null into number there answer is 0 //
 
 let reviceNull = null;
 console.log(typeof reviceNull);
@@ -63,6 +63,18 @@ console.log(typeof reviceNull);
 let reviceNullnum = Number(reviceNull)
 console.log(typeof reviceNullnum);
 console.log(reviceNullnum);
+
+
+//
+
+let reviceUndefined = undefined;
+console.log(typeof reviceUndefined);
+
+let reviceUndefinedNum = Number(reviceUndefined);
+console.log(typeof reviceUndefinedNum);
+console.log(reviceUndefinedNum)
+
+
 
 
 
