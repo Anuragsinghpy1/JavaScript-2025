@@ -65,7 +65,7 @@ console.log(typeof reviceNullnum);
 console.log(reviceNullnum);
 
 
-//
+// Undefined type is (undefined) if we convert undefined into number there answer is ( NaN )//
 
 let reviceUndefined = undefined;
 console.log(typeof reviceUndefined);
@@ -73,6 +73,17 @@ console.log(typeof reviceUndefined);
 let reviceUndefinedNum = Number(reviceUndefined);
 console.log(typeof reviceUndefinedNum);
 console.log(reviceUndefinedNum)
+
+// Boolean type is (boolean) if we convert boolean into number there answer should be ( 1 or 0 depend on boolean value, true = 1 and false = 0) //
+
+let reviceBoolean = false;
+console.log(typeof reviceBoolean);
+
+let reviceBooleanNum = Number(reviceBoolean);
+console.log(typeof reviceBooleanNum);
+console.log(reviceBooleanNum);
+
+
 
 
 
