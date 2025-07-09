@@ -25,12 +25,21 @@ let str3 = str1+str2;
  let y = x++
  console.log(`x: ${x} & y: ${y}`);
 
+ let l1 = 29;
+ let l2 = l1++;
+ console.log(`l1: ${l1} & l2: ${l2}`);
+
 
  // Prefix increment
 
  let x1 = 6;
  const y1 = ++x1;
  console.log(`x1: ${x1} & y1: ${y1}`);
+
+ let y2 = 11;
+ const y3 = ++y2;
+ console.log(`y2: ${y2} & y3: ${y3}`);
+ 
  
 
  
