@@ -49,5 +49,5 @@ const newFunction = function(){
 //   { type: typeof id }, // Convert Symbol to string for display
 // ]);
 
-// console.log(typeof heroName);
+console.log(heroName);
 
