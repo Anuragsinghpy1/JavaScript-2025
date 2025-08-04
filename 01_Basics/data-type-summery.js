@@ -9,6 +9,8 @@ const nullDatatype = null;   // Null typeof "Object"
 let undefinedData;           // undefined typeof "undefined"
 const id = Symbol('123')     // Symbol typeof "symbol"
 
+const bigNum = 48767866324388988972342n // BigInit
+
 // console.log(`${typeof stringData} ${typeof numData} ${typeof booleanData} ${typeof nullDatatype} ${typeof undefinedData} ${typeof id}`);
 
 
@@ -17,22 +19,35 @@ const id = Symbol('123')     // Symbol typeof "symbol"
 
 // Array, Objects, Functions
 
-const nameArray = ["Anurag" , "Anmol", "Hrithik"]
-// console.log(typeof nameArray);
+// Array
 
-let objtype = {
+const heroName = ["Marvels","DC","X-man"];
+
+// Objects
+
+const myObj ={
     name:"Anurag",
-    age: 22,
-    location: "Banglore",
+    age:25,
+    Gaduate: true,
 }
 
-const myFunction = function(){
-    console.log("Hello World");
+// Functions
+
+const newFunction = function(){
+  console.log("hello function");
+  
 }
 
-console.table([`${typeof nameArray} ${typeof obj} ${typeof myFunction}`]);
 
 
+// console.table([
+//   { type: typeof stringData },
+//   { type: typeof numData },
+//   { type: typeof booleanData },
+//   { type: typeof nullDatatype },
+//   { type: typeof undefinedData },
+//   { type: typeof id }, // Convert Symbol to string for display
+// ]);
 
-
+// console.log(typeof heroName);
 
